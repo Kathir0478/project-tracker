@@ -2,12 +2,30 @@ import React from 'react'
 
 const Achievements = () => {
     return (
-        <div id='achievements' className='pt-20'>
-            "Secured 4th prize in Manakula Vinayagar National Level Symposium, Pondicherry."
-            "ICPC registration accepted and completed several coding challenges with high scores."
-            "Solved 500 problems on LeetCode and 2000 problems on SkillRack in DSA."
-            "Participated in STEP program workshops on SQL and data engineering."
-            "Won recognition for Smart Networking and Recommendation Engine project."
+        <div id='achievements' className='flex flex-col w-full h-screen justify-center'>
+            <ul className='flex flex-col h-full gap-14 justify-center'>
+                <li>
+                    <h1>
+                        Achievements
+                    </h1>
+                </li>
+                <li>
+                    <p>LeetCode & SkillRack Milestones
+                        Solved 650+ problems on LeetCode.
+                        Solved 2000+ problems on SkillRack, enhancing my DSA proficiency.</p>
+                </li>
+                <li>
+                    <p>
+                        Deep Learning Specialization – Coursera (Andrew Ng)
+                        Completed the full specialization, gaining expertise in neural networks, CNNs, and AI model optimization.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Cleared various Interviews and coding contest like ICPC and amazon DSA
+                    </p>
+                </li>
+            </ul>
         </div>
     )
 }

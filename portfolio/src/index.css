@@ -2,4 +2,24 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 2rem;
+}
+
+#desc {
+    font-size: small;
 }
